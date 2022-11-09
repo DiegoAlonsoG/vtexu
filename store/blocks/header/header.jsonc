@@ -1,0 +1,172 @@
+{
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      // "flex-layout.row#section__one--links",
+      // "flex-layout.row#section__two--bar"
+      "flex-layout.row#section__one--final",
+      "flex-layout.row#section__two--final"
+      
+    ]
+  },
+  "flex-layout.row#section__one--final": {
+    "children": [
+      "flex-layout.col#header__login"
+    ]
+  },
+  "flex-layout.row#section__two--final": {
+    "children": [
+      "flex-layout.col#header__logo",
+      "flex-layout.col#header__search",
+      "flex-layout.col#section__two--wp",
+      "flex-layout.col#section__two--cuenta",
+      "flex-layout.col#section__two--tiendas",
+      "flex-layout.col#section__two--pedido",
+      "flex-layout.col#section__two--bolsa"
+    ]
+  },
+  "flex-layout.col#header__logo": {
+    "children": [
+      "logo#header__btm--logo"
+    ]
+  },
+  "flex-layout.col#header__search": {
+    "children": [
+      "search-bar#header__btm--search"
+    ]
+  },
+  "flex-layout.col#header__login": {
+    "children": [
+      "login#header__top--login"
+    ]
+  },
+  "logo#header__btm--logo": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/header-logo.jpeg",
+      "width": 300
+    }
+  },
+  "login#header__top--login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "search-bar#header__btm--search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "flex-layout.col#section__two--wp": {
+    "children": [
+      "flex-layout.row#wp"
+    ]
+  },
+  "flex-layout.col#section__two--cuenta": {
+    "children": [
+      "rich-text#cuenta__icon",
+      "rich-text#cuenta__label"
+    ]
+  },
+  "flex-layout.col#section__two--tiendas": {
+    "children": [
+      "rich-text#tiendas__icon",
+      "rich-text#tiendas__label"
+    ]
+  },
+  "flex-layout.col#section__two--pedido": {
+    "children": [
+      "rich-text#pedido__icon",
+      "rich-text#pedido__label"
+    ]
+  },
+  "flex-layout.col#section__two--bolsa": {
+    "children": [
+      "rich-text#bolsa__icon",
+      "rich-text#bolsa__label"
+    ]
+  },
+  "flex-layout.row#wp": {
+    "children": [
+      "rich-text#wp__icon",
+      "flex-layout.col#wp__txt"
+    ]
+  },
+  "rich-text#wp__icon": {
+    "props": {
+      "text": "WP"
+    }
+  },
+  "flex-layout.col#wp__txt": {
+    "children": [
+      "rich-text#wp__txt",
+      "rich-text#wp__phone--1",
+      "rich-text#wp__phone--2"
+    ]
+  },
+  "rich-text#wp__txt": {
+    "props": {
+      "text": "ESCRÍBENOS"
+    }
+  },
+  "rich-text#wp__phone--1": {
+    "props": {
+      "text": "960-984-854"
+    }
+  },
+  "rich-text#wp__phone--2": {
+    "props": {
+      "text": "955-182-201"
+    }
+  },
+  "rich-text#cuenta__icon": {
+    "props": {
+      "text": "cta"
+    }
+  },
+  "rich-text#cuenta__label": {
+    "props": {
+      "text": "Mi Cuenta"
+    }
+  },
+  "rich-text#tiendas__icon": {
+    "props": {
+      "text": "tds"
+    }
+  },
+  "rich-text#tiendas__label": {
+    "props": {
+      "text": "Nuestras tiendas"
+    }
+  },
+  "rich-text#pedido__icon": {
+    "props": {
+      "text": "ped"
+    }
+  },
+  "rich-text#pedido__label": {
+    "props": {
+      "text": "Seguir mi pedido"
+    }
+  },
+  "rich-text#bolsa__icon": {
+    "props": {
+      "text": "bol"
+    }
+  },
+  "rich-text#bolsa__label": {
+    "props": {
+      "text": "Mi Bolsa"
+    }
+  }
+}
