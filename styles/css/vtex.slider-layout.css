@@ -1,3 +1,22 @@
 .paginationDotsContainer--home__slider {
-    transform: translateY(30px)
+    position: absolute;
+    margin: 0 900px 20px 0;
+    /* transform: translateY(-10px); */
+}
+
+.slideChildrenContainer--home__slider {
+    /* display: flex !important;
+    justify-content: center !important; */
+    /* width: auto; */
+    padding: 10px 0;
+    width: 100% !important;
+}
+
+.slideChildren--cats__slider {
+    width: 1130px !important;
+}
+
+.slideChildrenContainer--cats__slider {
+    width: auto !important;
+    /* width: 100% !important; */
 }

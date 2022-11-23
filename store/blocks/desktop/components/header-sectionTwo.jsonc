@@ -1,0 +1,177 @@
+{
+    "flex-layout.row#section__two--final": {
+        "children": [
+          "flex-layout.col#header__logo",
+          "flex-layout.col#header__search",
+          "flex-layout.col#section__two--wp",
+          "flex-layout.col#section__two--cuenta",
+          "flex-layout.col#section__two--tiendas",
+          "flex-layout.col#section__two--pedido",
+          "flex-layout.col#section__two--bolsa"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "blockClass": "total"
+        }
+      },
+      "flex-layout.col#header__logo": {
+        "children": [
+          "logo#header__btm--logo"
+        ]
+      },
+      "flex-layout.col#header__search": {
+        "children": [
+          "search-bar#header__btm--search"
+        ],
+        "props": {
+            "width": "20%",
+            "blockClass": "search"
+        }
+      },
+      
+      "logo#header__btm--logo": {
+        "title": "Logo",
+        "props": {
+          "url": "assets/img/header-logo.jpeg",
+          "width": 300,
+          "blockClass": "logoHeader"
+        }
+      },
+      
+      "search-bar#header__btm--search": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+          "openAutocompleteOnFocus": true
+        }
+      },
+      "flex-layout.col#section__two--wp": {
+        "children": [
+          "flex-layout.row#wp"
+        ]
+      },
+      "flex-layout.col#section__two--cuenta": {
+        "children": [
+          "rich-text#cuenta__icon",
+          "rich-text#cuenta__label"
+        ],
+        "props": {
+            "blockClass": "icon__label__header"
+        }
+      },
+      "flex-layout.col#section__two--tiendas": {
+        "children": [
+          "rich-text#tiendas__icon",
+          "rich-text#tiendas__label"
+        ],
+        "props": {
+            "blockClass": "icon__label__header"
+        }
+      },
+      "flex-layout.col#section__two--pedido": {
+        "children": [
+          "rich-text#pedido__icon",
+          "rich-text#pedido__label"
+        ],
+        "props": {
+            "blockClass": "icon__label__header"
+        }
+      },
+      "flex-layout.col#section__two--bolsa": {
+        "children": [
+          "rich-text#bolsa__icon",
+          "rich-text#bolsa__label"
+        ],
+        "props": {
+            "blockClass": "icon__label__header"
+        }
+      },
+      "flex-layout.row#wp": {
+        "children": [
+          "rich-text#wp__icon",
+          "flex-layout.col#wp__txt"
+        ],
+        "props": {
+          "colSizing": "equal"
+        }
+      },
+      "rich-text#wp__icon": {
+        "props": {
+          "text": "WP",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "flex-layout.col#wp__txt": {
+        "children": [
+          "rich-text#wp__txt",
+          "rich-text#wp__phone--1",
+          "rich-text#wp__phone--2"
+        ]
+      },
+      "rich-text#wp__txt": {
+        "props": {
+          "text": "ESCRÍBENOS",
+          "blockClass": ["placeholderHeader","escribenos"]
+        }
+      },
+      "rich-text#wp__phone--1": {
+        "props": {
+          "text": "960-984-854",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#wp__phone--2": {
+        "props": {
+          "text": "955-182-201",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#cuenta__icon": {
+        "props": {
+          "text": "cta",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#cuenta__label": {
+        "props": {
+          "text": "Mi Cuenta",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#tiendas__icon": {
+        "props": {
+          "text": "tds",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#tiendas__label": {
+        "props": {
+          "text": "Nuestras tiendas",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#pedido__icon": {
+        "props": {
+          "text": "ped",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#pedido__label": {
+        "props": {
+          "text": "Seguir mi pedido",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#bolsa__icon": {
+        "props": {
+          "text": "bol",
+          "blockClass": "placeholderHeader"
+        }
+      },
+      "rich-text#bolsa__label": {
+        "props": {
+          "text": "Mi Bolsa",
+          "blockClass": "placeholderHeader"
+        }
+      }
+}

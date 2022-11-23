@@ -1,0 +1,154 @@
+{
+    "flex-layout.row#section__three--final": {
+        "children": [
+            "flex-layout.col#header__cat--gaming",
+            "flex-layout.col#header__cat--sillas",
+            "flex-layout.col#header__cat--funko",
+            "flex-layout.col#header__cat--coleccionables",
+            "flex-layout.col#header__cat--audio",
+            "flex-layout.col#header__cat--electronica",
+            "flex-layout.col#header__cat--preventas"
+        ],
+        "props": {
+            "blockClass": "header__cats"
+        }
+    },
+    "flex-layout.col#header__cat--gaming": {
+        "children": [
+            "flex-layout.row#header__cat--gaming"
+        ]
+    },
+    "flex-layout.col#header__cat--sillas": {
+        "children": [
+            "flex-layout.row#header__cat--sillas"
+        ]
+    },
+    "flex-layout.col#header__cat--funko": {
+        "children": [
+            "flex-layout.row#header__cat--funko"
+        ]
+    },
+    "flex-layout.col#header__cat--coleccionables": {
+        "children": [
+            "flex-layout.row#header__cat--coleccionables"
+        ]
+    },
+    "flex-layout.col#header__cat--audio": {
+        "children": [
+            "flex-layout.row#header__cat--audio"
+        ]
+    },
+    "flex-layout.col#header__cat--electronica": {
+        "children": [
+            "flex-layout.row#header__cat--electronica"
+        ]
+    },
+    "flex-layout.col#header__cat--preventas": {
+        "children": [
+            "flex-layout.row#header__cat--preventas"
+        ]
+    },
+    "flex-layout.row#header__cat--gaming": {
+        "children": [
+            "rich-text#header__cat--gaming",
+            "rich-text#placeholder__arrow--down"
+        ],
+        "props": {
+            "blockClass": "select__cats"
+        }
+    },
+    "flex-layout.row#header__cat--sillas": {
+        "children": [
+            "rich-text#header__cat--sillas",
+            "rich-text#placeholder__arrow--down"
+        ],
+        "props": {
+            "blockClass": "select__cats"
+        }
+    },
+    "flex-layout.row#header__cat--funko": {
+        "children": [
+            "rich-text#header__cat--funko",
+            "rich-text#placeholder__arrow--down"
+        ],
+        "props": {
+            "blockClass": "select__cats"
+        }
+    },
+    "flex-layout.row#header__cat--coleccionables": {
+        "children": [
+            "rich-text#header__cat--coleccionables",
+            "rich-text#placeholder__arrow--down"
+        ],
+        "props": {
+            "blockClass": "select__cats"
+        }
+    },
+    "flex-layout.row#header__cat--audio": {
+        "children": [
+            "rich-text#header__cat--audio",
+            "rich-text#placeholder__arrow--down"
+        ],
+        "props": {
+            "blockClass": "select__cats"
+        }
+    },
+    "flex-layout.row#header__cat--electronica": {
+        "children": [
+            "rich-text#header__cat--electronica",
+            "rich-text#placeholder__arrow--down"
+        ],
+        "props": {
+            "blockClass": "select__cats"
+        }
+    },
+    "flex-layout.row#header__cat--preventas": {
+        "children": [
+            "rich-text#header__cat--preventas",
+            "rich-text#placeholder__arrow--down"
+        ],
+        "props": {
+            "blockClass": "select__cats"
+        }
+    },
+    "rich-text#header__cat--gaming": {
+        "props": {
+            "text": "GAMING"
+        }
+    },
+    "rich-text#header__cat--sillas": {
+        "props": {
+            "text": "SILLAS GAMER"
+        }
+    },
+    "rich-text#header__cat--funko": {
+        "props": {
+            "text": "FUNKO"
+        }
+    },
+    "rich-text#header__cat--coleccionables": {
+        "props": {
+            "text": "COLECCIONABLES"
+        }
+    },
+    "rich-text#header__cat--audio": {
+        "props": {
+            "text": "AUDIO"
+        }
+    },
+    "rich-text#header__cat--electronica": {
+        "props": {
+            "text": "ELECTRÓNICA/TECNOLOGÍA"
+        }
+    },
+    "rich-text#header__cat--preventas": {
+        "props": {
+            "text": "PREVENTAS"
+        }
+    },
+    "rich-text#placeholder__arrow--down": {
+        "props": {
+            "text": "D"
+        }
+    }
+}

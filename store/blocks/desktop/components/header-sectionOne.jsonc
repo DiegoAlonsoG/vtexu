@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#section__one--final": {
+        "children": [
+            "flex-layout.col#header__politicas",
+            "flex-layout.col#header__login",
+            "flex-layout.col#header__crear",
+            "flex-layout.col#header__icon__fb",
+            "flex-layout.col#header__icon__ig",
+            "flex-layout.col#header__icon__yt",
+            "flex-layout.col#header__icon__tt",
+            "flex-layout.col#header__icon__tw"
+        ],
+        "props": {
+            // "colSizing": "auto",
+            // "horizontalAlign": "center",
+            "blockClass": "one"
+        }
+    },
+    "flex-layout.col#header__login": {
+        "children": [
+            "login#header__top--login"
+        ]
+    },
+    "login#header__top--login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true
+        }
+    },
+    "flex-layout.col#header__politicas": {
+        "children": [
+            "rich-text#header__politicas"
+        ]
+    },
+    "flex-layout.col#header__crear": {
+        "children": [
+            "rich-text#header__crear"
+        ]
+    },
+    "flex-layout.col#header__icon__fb": {
+        "children": [
+            "rich-text#header__icon__fb"
+        ]
+    },
+    "flex-layout.col#header__icon__ig": {
+        "children": [
+            "rich-text#header__icon__ig"
+        ]
+    },
+    "flex-layout.col#header__icon__yt": {
+        "children": [
+            "rich-text#header__icon__yt"
+        ]
+    },
+    "flex-layout.col#header__icon__tt": {
+        "children": [
+            "rich-text#header__icon__tt"
+        ]
+    },
+    "flex-layout.col#header__icon__tw": {
+        "children": [
+            "rich-text#header__icon__tw"
+        ]
+    },
+    "rich-text#header__politicas": {
+        "props": {
+            "text": "Políticas y condiciones de uso",
+            "blockClass": "placeholderHeader"
+        }
+    },
+    "rich-text#header__crear": {
+        "props": {
+            "text": "Crear una cuenta",
+            "blockClass": "placeholderHeader"
+        }
+    },
+    "rich-text#header__icon__fb": {
+        "props": {
+            "text": "fb",
+            "blockClass": "placeholderHeader"
+        }
+    },
+    "rich-text#header__icon__ig": {
+        "props": {
+            "text": "ig",
+            "blockClass": "placeholderHeader"
+        }
+    },
+    "rich-text#header__icon__yt": {
+        "props": {
+            "text": "yt",
+            "blockClass": "placeholderHeader"
+        }
+    },
+    "rich-text#header__icon__tt": {
+        "props": {
+            "text": "tt",
+            "blockClass": "placeholderHeader"
+        }
+    },
+    "rich-text#header__icon__tw": {
+        "props": {
+            "text": "tw",
+            "blockClass": "placeholderHeader"
+        }
+    }
+}

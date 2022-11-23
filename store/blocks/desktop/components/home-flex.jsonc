@@ -1,24 +1,36 @@
 {
-  "flex-layout.row#home__grid__section--one": {
+  "flex-layout.row#desktop__home__grid__section--one": {
     "children": [
       "image#grid__section__one--one",
       "image#grid__section__one--two",
       "image#grid__section__one--three"
-    ]
+    ],
+    "props": {
+      "blockClass": "gridSectionOne",
+      "colGap": 0
+    }
   },
-  "flex-layout.row#home__grid__section--two": {
+  "flex-layout.row#desktop__home__grid__section--two": {
     "children": [
       "image#grid__section__two--one",
       "image#grid__section__two--two",
       "image#grid__section__two--three"
-    ]
+    ],
+    "props": {
+      "blockClass": "gridSectionTwo",
+      "colGap": 0
+    }
   },
-  "flex-layout.row#home__grid__section--three": {
+  "flex-layout.row#desktop__home__grid__section--three": {
     "children": [
       "image#grid__section__three--one",
       "image#grid__section__three--two",
       "image#grid__section__three--three"
-    ]
+    ],
+    "props": {
+      "blockClass": "gridSectionThree",
+      "colGap": 0
+    }
   },
   "image#grid__section__one--one": {
     "props": {
@@ -27,7 +39,8 @@
   },
   "image#grid__section__one--two": {
     "props": {
-      "src": "assets/img/grid-1-2.jpeg"
+      "src": "assets/img/grid-1-2.jpeg",
+      "maxWidth": 900
     }
   },
   "image#grid__section__one--three": {
@@ -42,7 +55,8 @@
   },
   "image#grid__section__two--two": {
     "props": {
-      "src": "assets/img/grid-2-2.jpeg"
+      "src": "assets/img/grid-2-2.jpeg",
+      "maxWidth": 900
     }
   },
   "image#grid__section__two--three": {
@@ -57,7 +71,8 @@
   },
   "image#grid__section__three--two": {
     "props": {
-      "src": "assets/img/grid-3-2.jpeg"
+      "src": "assets/img/grid-3-2.jpeg",
+      "maxWidth": 900
     }
   },
   "image#grid__section__three--three": {

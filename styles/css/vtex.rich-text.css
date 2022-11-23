@@ -1,0 +1,41 @@
+.container--textCats {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.container--placeholderHeader {
+    height: 25px !important;
+    font-size: small !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.wrapper--placeholderHeader {
+    height: 25px !important;
+    font-size: small !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.paragraph--placeholderHeader {
+    height: 25px !important;
+    font-size: small !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container--escribenos {
+    color: skyblue !important;
+    font-weight: bold;
+    font-size: smaller !important;
+}

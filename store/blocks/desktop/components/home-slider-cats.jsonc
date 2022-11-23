@@ -1,33 +1,25 @@
 {
-  "store.home": { 
-    "blocks": [
-      "slider-layout#home__slider--children",
-      "flex-layout.row#home__grid__section--one",
-      "flex-layout.row#home__grid__section--two",
-      "flex-layout.row#home__grid__section--three",
-      "rich-text#home__categorias",
-      "slider-layout#home__slider__categorias"
-    ]
-  },
-  "rich-text#home__categorias": {
+    "rich-text#desktop__home__categorias": {
     "props": {
-      "text" : "NUESTRAS CATEGORÍAS"
+      "text" : "NUESTRAS CATEGORÍAS",
+      "blockClass": "textCats"
     }
   },
-  "slider-layout#home__slider__categorias": {
+  "slider-layout#desktop__home__slider__categorias": {
     "title": "slider cats con hijos",
     "props": {
       "itemsPerPage" : {
-        "desktop": 5,
-        "tablet": 1,
-        "mobile": 1
+      "desktop": 5,
+      "tablet": 1,
+      "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider",
+      "blockClass": "cats__slider",
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": true
-      }
+      },
+      "showNavigationArrows": "never"
     },
     "children": [
       "image#cats__slider--one",

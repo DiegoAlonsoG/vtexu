@@ -1,0 +1,15 @@
+{
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#section__one--final",
+      "flex-layout.row#section__two--final",
+      "flex-layout.row#section__three--final"
+    ]
+  }  
+}

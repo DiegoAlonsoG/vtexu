@@ -1,0 +1,17 @@
+{
+  "store.home": { 
+    "blocks": [
+      "responsive-layout.desktop#home__main"
+    ]
+  },
+  "responsive-layout.desktop#home__main": {
+    "children": [
+      "slider-layout#desktop__home__slider--children",
+      "flex-layout.row#desktop__home__grid__section--one",
+      "flex-layout.row#desktop__home__grid__section--two",
+      "flex-layout.row#desktop__home__grid__section--three",
+      "rich-text#desktop__home__categorias",
+      "slider-layout#desktop__home__slider__categorias"
+    ]
+  }
+}
